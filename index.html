@@ -1,517 +1,198 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="ne">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nepal-International Marriage Bureau (P) Ltd | Baneshwor, Kathmandu</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            gold: '#D4AF37',
-                            darkGold: '#AA7C11',
-                            crimson: '#8B0000',
-                            rose: '#FFF0F3',
-                            deepMaroon: '#5A0000',
-                            cream: '#FAF9F6'
-                        }
-                    },
-                    fontFamily: {
-                        serif: ['"Playfair Display"', 'serif'],
-                        sans: ['"Plus Jakarta Sans"', 'sans-serif']
-                    }
-                }
-            }
+    <title>भुक्तानी सम्बन्धी ध्यानाकर्षण</title>
+    <style>
+        body {
+            background-color: #555;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
-    </script>
-</head>
-<body class="bg-brand-cream text-gray-800 font-sans antialiased selection:bg-brand-gold selection:text-white">
+        .notice-container {
+            width: 800px;
+            background-color: #f4f1ea;
+            border: 4px solid #8b1e1e;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            box-sizing: border-box;
+        }
+        /* Header Section */
+        .notice-header {
+            background-color: #8b1e1e;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        .notice-header .sub-title {
+            font-size: 14px;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        .notice-header h1 {
+            font-size: 32px;
+            margin: 0;
+            font-weight: bold;
+        }
+        .notice-header .footer-sub {
+            font-size: 13px;
+            margin-top: 8px;
+        }
 
-    <!-- TOP BAR -->
-    <div class="bg-brand-deepMaroon text-amber-100 text-xs sm:text-sm py-2 px-4">
-        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-            <div class="flex items-center gap-4 flex-wrap justify-center sm:justify-start">
-                <span><i class="fa-solid fa-shield-halved text-brand-gold mr-1.5"></i> नेपाल सरकारबाट स्वीकृत प्राप्त</span>
-                <span><i class="fa-solid fa-location-dot text-brand-gold mr-1.5"></i> Baneshwor, Kathmandu</span>
+        /* Subject Bar */
+        .subject-bar {
+            background-color: #dcd7ce;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #222;
+            border-bottom: 1px solid #c8c2b6;
+        }
+
+        /* Main Body Content */
+        .notice-body {
+            padding: 25px 40px;
+            text-align: center;
+        }
+        .notice-body .group-owner {
+            font-size: 14px;
+            color: #444;
+            margin-bottom: 5px;
+        }
+        .notice-body h2 {
+            font-size: 38px;
+            color: #8b1e1e;
+            margin: 0 0 5px 0;
+            font-weight: bold;
+        }
+        .notice-body .group-name {
+            font-size: 15px;
+            font-weight: bold;
+            color: #222;
+            letter-spacing: 0.5px;
+            margin-bottom: 25px;
+        }
+        .notice-body .description {
+            font-size: 15px;
+            line-height: 1.8;
+            color: #111;
+            text-align: justify;
+            margin-bottom: 25px;
+        }
+
+        /* Dark Alert Bar */
+        .alert-bar {
+            background-color: #222222;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        /* Contact Section Grid */
+        .contact-grid {
+            display: flex;
+            border: 1px solid #b5ad9e;
+            margin-bottom: 15px;
+        }
+        .contact-box {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+        }
+        .contact-box:first-child {
+            border-right: 1px solid #b5ad9e;
+        }
+        .contact-box h3 {
+            font-size: 15px;
+            color: #222;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        .contact-box .phones {
+            font-size: 18px;
+            font-weight: bold;
+            color: #111;
+            line-height: 1.8;
+        }
+        .contact-box .note {
+            font-size: 13px;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        /* Bottom Footer Note */
+        .notice-footer-note {
+            text-align: center;
+            font-size: 12px;
+            color: #444;
+            padding-bottom: 15px;
+            border-top: 1px solid #dcd7ce;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="notice-container">
+    <!-- Header -->
+    <div class="notice-header">
+        <div class="sub-title">📢 सार्वजनिक सूचना 📢</div>
+        <h1>भुक्तानी सम्बन्धी ध्यानाकर्षण</h1>
+        <div class="footer-sub">वेबसाइट निर्माण सेवाको बाँकी भुक्तानीबारे</div>
+    </div>
+
+    <!-- Subject Bar -->
+    <div class="subject-bar">
+        विषय: वेबसाइट निर्माण गरेबापतको भुक्तानी प्राप्त नभएको सम्बन्धमा
+    </div>
+
+    <!-- Body -->
+    <div class="notice-body">
+        <div class="group-owner">दानाबासु ग्रुपका अध्यक्ष</div>
+        <h2>हरि राम श्रेष्ठ</h2>
+        <div class="group-name">TWANABASU GROUP</div>
+
+        <div class="description">
+            हाम्रो भनाइअनुसार, श्री <b>हरि राम श्रेष्ठ</b> ले वेबसाइट निर्माण गर्न दिनुभएको भए तापनि <b>सहमत रकम हालसम्म प्राप्त भएको छैन</b>। वेबसाइट निर्माणमा खर्चिएको समय, श्रम र प्राविधिक सेवाको उचित भुक्तानीका लागि सम्बन्धित पक्षलाई यथाशीघ्र सम्पर्क गरी विषय टुङ्ग्याउन अनुरोध गर्दछौँ।
+        </div>
+
+        <!-- Dark Alert Banner -->
+        <div class="alert-bar">
+            सम्बन्धित पक्षले भुक्तानीको अवस्था स्पष्ट पार्दै शीघ्र समाधान गर्नुहोस।
+        </div>
+
+        <!-- Contact Grid -->
+        <div class="contact-grid">
+            <div class="contact-box">
+                <h3>हरि राम श्रेष्ठका सम्पर्क नम्बर</h3>
+                <div class="phones">
+                    ०१-५२४२०९६<br>
+                    ९८५१४२००८४<br>
+                    ९७६५०१४००३
+                </div>
             </div>
-            <div class="flex items-center gap-4 flex-wrap justify-center">
-                <a href="tel:9851352212" class="hover:text-brand-gold transition"><i class="fa-solid fa-phone text-brand-gold mr-1"></i> 9851352212 / 9768541629</a>
-                <a href="mailto:kanun4848@gmail.com" class="hover:text-brand-gold transition"><i class="fa-solid fa-envelope text-brand-gold mr-1"></i> kanun4848@gmail.com</a>
+            <div class="contact-box">
+                <h3>हाम्रो सम्पर्क नम्बर</h3>
+                <div class="phones" style="margin-top: 15px;">
+                    ९७६८०८५६९३
+                </div>
+                <div class="note">भुक्तानी तथा छलफलका लागि सम्पर्क गर्नुहोस।</div>
             </div>
         </div>
     </div>
 
-    <!-- HEADER / NAVBAR -->
-    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-amber-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <a href="#" class="flex items-center gap-3">
-                <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-brand-crimson to-brand-gold flex items-center justify-center text-white text-xl shadow-md">
-                    <i class="fa-solid fa-rings-wedding"></i>
-                </div>
-                <div>
-                    <span class="block font-serif font-bold text-lg sm:text-xl text-brand-crimson leading-tight">Nepal-International Marriage Bureau</span>
-                    <span class="text-xs text-amber-800 font-medium tracking-wide">(विश्वभरी ज्वाईं र बुहारी खोज्ने अफिस)</span>
-                </div>
-            </a>
-            
-            <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-gray-700">
-                <a href="#about" class="hover:text-brand-crimson transition">About Us</a>
-                <a href="#services" class="hover:text-brand-crimson transition">Matchmaking & Criteria</a>
-                <a href="#legal" class="hover:text-brand-crimson transition">Legal & Visa</a>
-                <a href="#events" class="hover:text-brand-crimson transition">Event Management</a>
-                <a href="#contact" class="bg-brand-crimson text-white px-5 py-2.5 rounded-full shadow hover:bg-red-900 transition">Contact Lami Baje</a>
-            </nav>
+    <!-- Bottom Note -->
+    <div class="notice-footer-note">
+        प्रकाशित गर्नुअघि भुक्तानीको अवस्था तथा विवरण पुष्टि गर्नुहोस।
+    </div>
+</div>
 
-            <button onclick="toggleMobileMenu()" class="md:hidden text-2xl text-brand-crimson p-2 focus:outline-none">
-                <i class="fa-solid fa-bars" id="menu-icon"></i>
-            </button>
-        </div>
-
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-6 space-y-3">
-            <a href="#about" onclick="toggleMobileMenu()" class="block py-2 text-gray-700 font-medium border-b border-gray-50">About Us</a>
-            <a href="#services" onclick="toggleMobileMenu()" class="block py-2 text-gray-700 font-medium border-b border-gray-50">Matchmaking & Criteria</a>
-            <a href="#legal" onclick="toggleMobileMenu()" class="block py-2 text-gray-700 font-medium border-b border-gray-50">Legal & Visa</a>
-            <a href="#events" onclick="toggleMobileMenu()" class="block py-2 text-gray-700 font-medium border-b border-gray-50">Event Management</a>
-            <a href="#contact" onclick="toggleMobileMenu()" class="block text-center bg-brand-crimson text-white py-3 rounded-xl font-medium shadow-md">Contact Lami Baje</a>
-        </div>
-    </header>
-
-    <!-- HERO SECTION -->
-    <section class="relative bg-gradient-to-b from-brand-rose via-white to-amber-50/40 py-20 lg:py-28 overflow-hidden">
-        <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-brand-gold/10 blur-3xl pointer-events-none"></div>
-        <div class="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-brand-crimson/10 blur-3xl pointer-events-none"></div>
-        
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-                    <span class="inline-flex items-center gap-2 bg-amber-100/80 text-brand-darkGold px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase border border-amber-200">
-                        <i class="fa-solid fa-certificate">></i> Government Authorized Agency
-                    </span>
-                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                        Finding Your Perfect Life Partner, <span class="text-brand-crimson italic">Globally & Locally</span>
-                    </h1>
-                    <p class="text-lg text-gray-600 max-w-2xl mx-auto lg:mx-0 font-normal">
-                        Trusted matchmaking and legal alliance bureau in Baneshwor, Kathmandu. Connecting families across Nepal, India, Australia, Europe, USA, UK, Canada, Japan, China, and beyond.
-                    </p>
-                    
-                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
-                        <a href="#contact" class="w-full sm:w-auto bg-brand-crimson hover:bg-red-900 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition flex items-center justify-center gap-3">
-                            <i class="fa-solid fa-phone-volume"></i> Register / Enquire Now
-                        </a>
-                        <a href="#services" class="w-full sm:w-auto bg-white hover:bg-gray-50 text-gray-800 border border-gray-300 font-semibold px-8 py-4 rounded-xl shadow-sm transition flex items-center justify-center gap-2">
-                            Explore Services <i class="fa-solid fa-arrow-down text-xs"></i>
-                        </a>
-                    </div>
-
-                    <!-- Trust Badges -->
-                    <div class="pt-8 grid grid-cols-3 gap-4 border-t border-gray-200/80 max-w-lg mx-auto lg:mx-0">
-                        <div class="text-center lg:text-left">
-                            <span class="block font-serif font-bold text-2xl text-brand-crimson">100%</span>
-                            <span class="text-xs text-gray-500">Confidentiality</span>
-                        </div>
-                        <div class="text-center lg:text-left">
-                            <span class="block font-serif font-bold text-2xl text-brand-crimson">Global</span>
-                            <span class="text-xs text-gray-500">Network Access</span>
-                        </div>
-                        <div class="text-center lg:text-left">
-                            <span class="block font-serif font-bold text-2xl text-brand-crimson">Legal</span>
-                            <span class="text-xs text-gray-500">Court & Visa Support</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Lami Baje Card Showcase -->
-                <div class="lg:col-span-5 flex justify-center">
-                    <div class="relative w-full max-w-md bg-white rounded-2xl shadow-2xl border-2 border-amber-200/60 p-6 sm:p-8 overflow-hidden">
-                        <div class="absolute top-0 right-0 bg-brand-gold text-white text-xs font-bold px-4 py-1.5 rounded-bl-xl uppercase tracking-wider">
-                            Verified Expert
-                        </div>
-                        
-                        <div class="flex items-center gap-4 mb-6">
-                            <div class="w-20 h-20 rounded-full bg-gradient-to-br from-brand-crimson to-brand-gold flex items-center justify-center text-white text-3xl shadow-md flex-shrink-0">
-                                <i class="fa-solid fa-user-tie"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-serif text-2xl font-bold text-gray-900">Guru Shrestha</h3>
-                                <p class="text-brand-crimson font-semibold text-sm">Lawyer / Lami Baje</p>
-                                <p class="text-xs text-gray-500 mt-0.5">Chief Matchmaker & Legal Advisor</p>
-                            </div>
-                        </div>
-
-                        <div class="space-y-3 bg-brand-rose/60 p-4 rounded-xl border border-rose-100 text-sm text-gray-700">
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-location-dot text-brand-crimson mt-1"></i>
-                                <div><strong>Headquarters:</strong> Baneshwor, Kathmandu, Nepal</div>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-phone text-brand-crimson mt-1"></i>
-                                <div><strong>Hotlines:</strong> 9851352212 / 9768541629</div>
-                            </div>
-                            <div class="flex items-start gap-3">
-                                <i class="fa-solid fa-envelope text-brand-crimson mt-1"></i>
-                                <div><strong>Email:</strong> kanun4848@gmail.com</div>
-                            </div>
-                        </div>
-
-                        <div class="mt-6">
-                            <a href="tel:9851352212" class="block text-center bg-gray-900 hover:bg-brand-crimson text-white font-medium py-3 rounded-xl transition shadow">
-                                <i class="fa-solid fa-phone-flip mr-2"></i> Direct Call Lami Baje
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ABOUT SECTION -->
-    <section id="about" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-brand-crimson text-sm font-bold tracking-widest uppercase bg-brand-rose px-3 py-1 rounded-full">About The Bureau</span>
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mt-3">Nepal-International Marriage Bureau (P) Ltd</h2>
-                <div class="w-24 h-1 bg-brand-gold mx-auto mt-4 rounded-full"></div>
-                <p class="text-gray-600 mt-4 text-base sm:text-lg">
-                    Officially registered and recognized by the Government of Nepal, we specialize in high-class matchmaking, cross-cultural alliances, legal marital counseling, and comprehensive wedding event solutions.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-brand-cream p-8 rounded-2xl border border-amber-100 shadow-sm hover:shadow-md transition">
-                    <div class="w-14 h-14 bg-brand-crimson text-white rounded-xl flex items-center justify-center text-xl mb-6 shadow">
-                        <i class="fa-solid fa-handshake-angle"></i>
-                    </div>
-                    <h3 class="font-serif text-xl font-bold text-gray-900 mb-3">Trusted Matchmaking</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        Personalized matchmaking services tailored to your community, family background, professional status, and personal preferences with utmost privacy.
-                    </p>
-                </div>
-
-                <div class="bg-brand-cream p-8 rounded-2xl border border-amber-100 shadow-sm hover:shadow-md transition">
-                    <div class="w-14 h-14 bg-brand-gold text-white rounded-xl flex items-center justify-center text-xl mb-6 shadow">
-                        <i class="fa-solid fa-globe"></i>
-                    </div>
-                    <h3 class="font-serif text-xl font-bold text-gray-900 mb-3">Global & Overseas Network</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        Bridging families across borders. Whether you are looking for grooms or brides residing in Nepal or abroad in western/asian nations.
-                    </p>
-                </div>
-
-                <div class="bg-brand-cream p-8 rounded-2xl border border-amber-100 shadow-sm hover:shadow-md transition">
-                    <div class="w-14 h-14 bg-brand-deepMaroon text-white rounded-xl flex items-center justify-center text-xl mb-6 shadow">
-                        <i class="fa-solid fa-scale-balanced"></i>
-                    </div>
-                    <h3 class="font-serif text-xl font-bold text-gray-900 mb-3">Legal & Visa Expertise</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        Led by lawyer Guru Shrestha, we provide certified legal guidance including court marriage registration, immigration visa support, and civil law counseling.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SERVICES & CRITERIA SECTION -->
-    <section id="services" class="py-20 bg-brand-cream">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-brand-crimson text-sm font-bold tracking-widest uppercase bg-rose-100 px-3 py-1 rounded-full">Our Comprehensive Services</span>
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mt-3">Matchmaking Criteria & Service Categories</h2>
-                <div class="w-24 h-1 bg-brand-gold mx-auto mt-4 rounded-full"></div>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <!-- Card 1: Castes & Communities -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-amber-100">
-                    <div class="flex items-center gap-4 mb-6">
-                        <div class="w-12 h-12 rounded-xl bg-brand-rose text-brand-crimson flex items-center justify-center text-xl">
-                            <i class="fa-solid fa-users-rectangle"></i>
-                        </div>
-                        <h3 class="font-serif text-2xl font-bold text-gray-900">1. Caste & Community Matching</h3>
-                    </div>
-                    <p class="text-gray-600 text-sm mb-4">We facilitate respectful matching across diverse cultural and ethnic backgrounds:</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Newar</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Chhetri</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Bahun</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Madhesi</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Gurung</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Rai</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Tamang</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Limbu</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Tharu</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Magar</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Sunar</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Marwadi</span>
-                        <span class="bg-amber-50 text-amber-900 border border-amber-200 px-3 py-1 rounded-full text-xs font-medium">Indian / Chinese / European / American</span>
-                    </div>
-                </div>
-
-                <!-- Card 2: Professional Profiles -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-amber-100">
-                    <div class="flex items-center gap-4 mb-6">
-                        <div class="w-12 h-12 rounded-xl bg-amber-50 text-brand-darkGold flex items-center justify-center text-xl">
-                            <i class="fa-solid fa-briefcase"></i>
-                        </div>
-                        <h3 class="font-serif text-2xl font-bold text-gray-900">2. Professional Profile Categories</h3>
-                    </div>
-                    <p class="text-gray-600 text-sm mb-4">Profiles available for matching based on career and qualification:</p>
-                    <div class="grid grid-cols-2 gap-3">
-                        <div class="flex items-center gap-2 bg-gray-50 p-3 rounded-xl text-sm font-medium text-gray-700">
-                            <i class="fa-solid fa-building-columns text-brand-crimson"></i> Government Jobs
-                        </div>
-                        <div class="flex items-center gap-2 bg-gray-50 p-3 rounded-xl text-sm font-medium text-gray-700">
-                            <i class="fa-solid fa-user-doctor text-brand-crimson"></i> Doctors & Medical
-                        </div>
-                        <div class="flex items-center gap-2 bg-gray-50 p-3 rounded-xl text-sm font-medium text-gray-700">
-                            <i class="fa-solid fa-hard-hat text-brand-crimson"></i> Engineers
-                        </div>
-                        <div class="flex items-center gap-2 bg-gray-50 p-3 rounded-xl text-sm font-medium text-gray-700">
-                            <i class="fa-solid fa-user-nurse text-brand-crimson"></i> Nurses & Healthcare
-                        </div>
-                        <div class="flex items-center gap-2 bg-gray-50 p-3 rounded-xl text-sm font-medium text-gray-700">
-                            <i class="fa-solid fa-landmark text-brand-crimson"></i> Bankers & Finance
-                        </div>
-                        <div class="flex items-center gap-2 bg-gray-50 p-3 rounded-xl text-sm font-medium text-gray-700">
-                            <i class="fa-solid fa-chart-line text-brand-crimson"></i> Businessmen & Traders
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3: Age & Global Country Reach -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-amber-100">
-                    <div class="flex items-center gap-4 mb-6">
-                        <div class="w-12 h-12 rounded-xl bg-rose-50 text-brand-crimson flex items-center justify-center text-xl">
-                            <i class="fa-solid fa-earth-americas"></i>
-                        </div>
-                        <h3 class="font-serif text-2xl font-bold text-gray-900">3. Age & International Reach</h3>
-                    </div>
-                    <ul class="space-y-3 text-sm text-gray-700">
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-check text-brand-gold mt-1"></i>
-                            <div><strong>Age Group:</strong> Matching catered for individuals aged 20 to 65 years.</div>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-check text-brand-gold mt-1"></i>
-                            <div><strong>Expat & Foreign Partners:</strong> Nepali or foreign grooms/brides residing abroad or in Nepal.</div>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-check text-brand-gold mt-1"></i>
-                            <div><strong>Country Coverage:</strong> Nepal, Australia, Europe, USA, UK, Canada, Japan, India, China, etc.</div>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Card 4: Legal, Visa & Event Management -->
-                <div id="legal" class="bg-white p-8 rounded-2xl shadow-sm border border-amber-100">
-                    <div class="flex items-center gap-4 mb-6">
-                        <div class="w-12 h-12 rounded-xl bg-amber-50 text-brand-darkGold flex items-center justify-center text-xl">
-                            <i class="fa-solid fa-file-contract"></i>
-                        </div>
-                        <h3 class="font-serif text-2xl font-bold text-gray-900">4. Visa, Legal & Event Services</h3>
-                    </div>
-                    <ul class="space-y-3 text-sm text-gray-700">
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-passport text-brand-crimson mt-1"></i>
-                            <div><strong>Visa Processing:</strong> Business, Student, Working, Volunteer & Marriage VISA assistance.</div>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-gavel text-brand-crimson mt-1"></i>
-                            <div><strong>Legal Services:</strong> Court Marriage documentation, Criminal Law & Business Law consulting.</div>
-                        </li>
-                        <li id="events" class="flex items-start gap-3">
-                            <i class="fa-solid fa-champagne-glasses text-brand-crimson mt-1"></i>
-                            <div><strong>Event Management:</strong> Horse rental, Catering, Photo/Video shoot, Makeup, Band Baja & complete wedding events.</div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- TESTIMONIALS / SUCCESS STORIES -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-brand-crimson text-sm font-bold tracking-widest uppercase bg-brand-rose px-3 py-1 rounded-full">Happy Families</span>
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mt-3">Trusted By Thousands Across the Globe</h2>
-                <div class="w-24 h-1 bg-brand-gold mx-auto mt-4 rounded-full"></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-brand-cream p-8 rounded-2xl border border-amber-100 relative">
-                    <div class="text-brand-gold text-3xl mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                    <p class="text-gray-600 text-sm italic mb-6">
-                        "Lami Baje helped us find a wonderful match for our daughter in Australia. The legal and visa paperwork was handled smoothly under expert guidance."
-                    </p>
-                    <div class="font-serif font-bold text-gray-900">Shrestha Family</div>
-                    <div class="text-xs text-gray-500">Kathmandu / Sydney</div>
-                </div>
-
-                <div class="bg-brand-cream p-8 rounded-2xl border border-amber-100 relative">
-                    <div class="text-brand-gold text-3xl mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                    <p class="text-gray-600 text-sm italic mb-6">
-                        "Professional and completely confidential. From community matchmaking to court marriage registration in Baneshwor, everything was seamless."
-                    </p>
-                    <div class="font-serif font-bold text-gray-900">Maharjan Couple</div>
-                    <div class="text-xs text-gray-500">Lalitpur</div>
-                </div>
-
-                <div class="bg-brand-cream p-8 rounded-2xl border border-amber-100 relative">
-                    <div class="text-brand-gold text-3xl mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                    <p class="text-gray-600 text-sm italic mb-6">
-                        "They also managed our wedding event with catering, band baja, and photography. Truly a one-stop office for international and local marriages!"
-                    </p>
-                    <div class="font-serif font-bold text-gray-900">Sharma Family</div>
-                    <div class="text-xs text-gray-500">Pokhara / UK</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT & ENQUIRY SECTION -->
-    <section id="contact" class="py-20 bg-gradient-to-b from-white to-brand-rose/40">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-brand-deepMaroon rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 lg:grid-cols-12 text-white">
-                
-                <!-- Info Column -->
-                <div class="lg:col-span-5 p-8 sm:p-12 flex flex-col justify-between bg-gradient-to-br from-brand-deepMaroon to-brand-crimson">
-                    <div>
-                        <span class="bg-brand-gold/20 text-brand-gold text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Get in Touch</span>
-                        <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-4 mb-6">Start Your Journey Today</h2>
-                        <p class="text-amber-100/80 text-sm leading-relaxed mb-8">
-                            Visit our central office in Baneshwor or contact Guru Shrestha (Lawyer/Lami Baje) directly for secure and reliable matchmaking.
-                        </p>
-                        
-                        <div class="space-y-6 text-sm">
-                            <div class="flex items-start gap-4">
-                                <div class="w-10 h-10 rounded-full bg-brand-gold/20 flex items-center justify-center text-brand-gold flex-shrink-0 mt-1">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </div>
-                                <div>
-                                    <strong class="block text-white font-semibold">Headquarters</strong>
-                                    <span class="text-amber-100/80">Baneshwor, Kathmandu, Nepal</span>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start gap-4">
-                                <div class="w-10 h-10 rounded-full bg-brand-gold/20 flex items-center justify-center text-brand-gold flex-shrink-0 mt-1">
-                                    <i class="fa-solid fa-phone"></i>
-                                </div>
-                                <div>
-                                    <strong class="block text-white font-semibold">Phone Hotlines</strong>
-                                    <span class="text-amber-100/80">9851352212 / 9768541629</span>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start gap-4">
-                                <div class="w-10 h-10 rounded-full bg-brand-gold/20 flex items-center justify-center text-brand-gold flex-shrink-0 mt-1">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </div>
-                                <div>
-                                    <strong class="block text-white font-semibold">Email Address</strong>
-                                    <span class="text-amber-100/80">kanun4848@gmail.com</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="pt-8 mt-8 border-t border-white/10 text-xs text-amber-200/60">
-                        नेपाल सरकारबाट स्वीकृत प्राप्त • विश्वभरी ज्वाईं र बुहारी खोज्ने अफिस
-                    </div>
-                </div>
-
-                <!-- Form Column -->
-                <div class="lg:col-span-7 p-8 sm:p-12 bg-white text-gray-800">
-                    <h3 class="font-serif text-2xl font-bold text-gray-900 mb-2">Send an Enquiry</h3>
-                    <p class="text-gray-500 text-sm mb-6">Fill out the form below and our team will get back to you promptly.</p>
-                    
-                    <form onsubmit="handleFormSubmit(event)" class="space-y-4">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div>
-                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Your Full Name</label>
-                                <input type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-brand-crimson text-sm" placeholder="Enter full name">
-                            </div>
-                            <div>
-                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Phone Number</label>
-                                <input type="tel" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-brand-crimson text-sm" placeholder="Enter phone number">
-                            </div>
-                        </div>
-
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div>
-                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Looking For</label>
-                                <select class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-brand-crimson text-sm bg-white">
-                                    <option>Groom (ज्वाईं)</option>
-                                    <option>Bride (बुहारी)</option>
-                                    <option>Legal / Visa Services</option>
-                                    <option>Event Management</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Preferred Location / Country</label>
-                                <input type="text" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-brand-crimson text-sm" placeholder="e.g. Kathmandu, Australia, UK">
-                            </div>
-                        </div>
-
-                        <div>
-                            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Message / Requirements</label>
-                            <textarea rows="4" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-brand-crimson text-sm" placeholder="Specify caste, profession, age criteria, or specific requirements..."></textarea>
-                        </div>
-
-                        <button type="submit" class="w-full bg-brand-crimson hover:bg-red-900 text-white font-semibold py-4 rounded-xl shadow-lg transition uppercase tracking-wider text-sm">
-                            Submit Enquiry to Lami Baje
-                        </button>
-                    </form>
-                    <div id="success-msg" class="hidden mt-4 p-4 bg-green-50 border border-green-200 text-green-800 text-sm rounded-xl text-center font-medium">
-                        Thank you! Your enquiry has been received. We will contact you shortly.
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
-            <div>
-                <div class="font-serif font-bold text-white text-lg">Nepal-International Marriage Bureau (P) Ltd</div>
-                <p class="text-xs text-gray-500 mt-1">नेपाल सरकारबाट स्वीकृत प्राप्त • विश्वभरी ज्वाईं र बुहारी खोज्ने अफिस</p>
-                <p class="text-xs text-gray-500 mt-1">Chairman / Lawyer: Guru Shrestha (Lami Baje)</p>
-            </div>
-            <div class="text-xs text-gray-500">
-                &copy; 2026 Nepal-International Marriage Bureau. All rights reserved. Headquartered in Baneshwor, Kathmandu.
-            </div>
-        </div>
-    </footer>
-
-    <!-- SCRIPT -->
-    <script>
-        function toggleMobileMenu() {
-            const menu = document.getElementById('mobile-menu');
-            const icon = document.getElementById('menu-icon');
-            menu.classList.toggle('hidden');
-            if(menu.classList.contains('hidden')) {
-                icon.className = "fa-solid fa-bars";
-            } else {
-                icon.className = "fa-solid fa-xmark";
-            }
-        }
-
-        function handleFormSubmit(e) {
-            e.preventDefault();
-            document.getElementById('success-msg').classList.remove('hidden');
-            e.target.reset();
-            setTimeout(() => {
-                document.getElementById('success-msg').classList.add('hidden');
-            }, 6000);
-        }
-    </script>
 </body>
 </html>
